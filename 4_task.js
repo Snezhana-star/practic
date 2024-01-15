@@ -1,3 +1,5 @@
+//вывести из объекта (тут fetch'ем отправить запрос надо)адресс в формате 'Город: city2 Улица: street2 Дом: house2'.
+// из этого же объекта вывести 'фамилия personLastName имя personFirstName купил 5 штук товаров name'
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -34,9 +36,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-//вывести из объекта (тут fetch'ем отправить запрос надо)адресс в формате 'Город: city2 Улица: street2 Дом: house2'.
-// из этого же объекта вывести 'фамилия personLastName имя personFirstName купил 5 штук товаров name'
-// Создаем функцию для выполнения запроса и обработки ответа
 function fetchData(url) {
     return __awaiter(this, void 0, void 0, function () {
         var response, data;
