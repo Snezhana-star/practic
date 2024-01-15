@@ -1,5 +1,4 @@
-// let message: string = 'Hello World'
-// console.log(message)
+
 // Данна строка 'DDADSADASDAAADS' вывести все уникальные символы в строке "DAS"
 var inputStr = 'DDADSADASDAAADS';
 var targetStr = 'DAS';
